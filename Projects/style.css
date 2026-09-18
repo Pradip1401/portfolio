@@ -1,0 +1,87 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.Project{
+    height: 450px;
+    width: 80%;
+    text-align: center;
+    border: 2px solid black;
+    background: linear-gradient(135deg, #ffffff, #f4f1ff);
+    position: absolute;
+    left: 105px;
+    top: 50px;
+}
+p{
+    margin:30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h3{
+    margin: 10px 10px 50px 10px;
+    padding: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+  
+}
+.cards{
+    display: flex;
+    gap:25px;
+    flex-wrap:nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin: 50px;
+}
+#Recipe-finder{
+    height: 300px;
+    width: 270px;
+    background-color: white;
+    flex-shrink: 0;
+    /* border: 2px solid black; */
+    background-image: url("recipe.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(174, 174, 222);
+}
+#detail{
+    position: absolute;
+    left: 170px;
+    bottom:75px;
+    text-decoration: none;
+}
+#BMI-Calculator{
+    height: 300px;
+    width: 270px;
+    background-color: white;
+    flex-shrink: 0;
+    background-color: rgb(174, 174, 222);
+    background-image: url("image.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#detail2{
+    position: absolute;
+    left: 460px;
+    bottom:75px;
+    text-decoration: none;
+}
+#Supply-chain{
+    height: 300px;
+    width: 270px;
+    background-color: white;
+    flex-shrink: 0;
+    background-color: rgb(174, 174, 222);
+}
+#detail3{
+    position: absolute;
+    left: 750px;
+    bottom:75px;
+    text-decoration: none;
+}
